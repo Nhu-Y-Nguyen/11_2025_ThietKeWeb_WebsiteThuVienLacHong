@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Kho Sách - Thư viện LHU</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/LHU&ASU-VIET 2@.png" alt="LOGO" style="max-height: 80px; width: auto;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="sach.html">Sách</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gtns.html">Giáo trình nội sinh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tldt.html">Tài liệu điện tử</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nghiencuu.html">Báo cáo NCKH</a>
+                    </li>
+                </ul>
+
+                <a href="#" class="btn btn-outline-primary ms-lg-2">Đăng nhập</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="lib-search-hero">
+        <div class="hero-blob-left"></div>
+        <div class="hero-blob-right"></div>
+
+        <div class="container">
+            <div class="lib-hero-wrapper">
+
+                <div class="lh-content">
+                    <span class="sub-heading">Hệ Thống Thư Viện Số</span>
+
+                    <h1 class="lh-title">
+                        Tìm Kiếm Nguồn <br>
+                        <span class="text-primary-color">Tài Liệu Học Tập</span> <br>
+                        Phù Hợp Nhất
+                    </h1>
+
+                    <p class="lh-desc">
+                        Kho dữ liệu hơn 50.000 đầu sách, giáo trình, tạp chí khoa học và luận văn được số hóa, sẵn sàng
+                        phục vụ nhu cầu nghiên cứu của bạn.
+                    </p>
+
+                    <form class="search-card-box">
+                        <div class="search-row">
+                            <div class="search-group flex-grow">
+                                <label><i class="fas fa-book"></i> Từ khóa</label>
+                                <input type="text" placeholder="Tên sách, tác giả, ISBN...">
+                            </div>
+
+                            <div class="search-group border-left">
+                                <label><i class="fas fa-list"></i> Danh mục</label>
+                                <select>
+                                    <option>Tất cả</option>
+                                    <option>Giáo trình</option>
+                                    <option>Luận văn</option>
+                                    <option>Tạp chí</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn-search-action">
+                            Tìm Kiếm <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+
+                    <div class="scroll-indicator">
+                        <div class="mouse-icon">
+                            <span class="wheel"></span>
+                        </div>
+                        <span>Cuộn xuống để khám phá</span>
+                    </div>
+                </div>
+
+                <div class="lh-image-area">
+                    <div class="img-leaf-shape">
+                        <img src="https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Không gian đọc sách">
+                    </div>
+
+                    <div class="floating-badge badge-left">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="floating-badge badge-right">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="container main-layout-wrapper">
+
+        <aside class="collection-sidebar">
+            <div class="sidebar-sticky-content">
+                <h3 class="sidebar-title">Bộ Sưu Tập</h3>
+                <ul class="collection-list">
+                    <li><a href="#" class="collection-link active">Thịnh Hành</a></li>
+                    <li><a href="#" class="collection-link">Văn Học Kinh Điển</a></li>
+                    <li><a href="#" class="collection-link">Kinh Tế & Quản Trị</a></li>
+                    <li><a href="#" class="collection-link">Công Nghệ</a></li>
+                    <li><a href="#" class="collection-link">Tâm Lý Học</a></li>
+                    <li><a href="#" class="collection-link">Sách Thiếu Nhi</a></li>
+                    <li><a href="#" class="collection-link">Tạp Chí Khoa Học</a></li>
+                </ul>
+
+                <div class="sidebar-login-card shadow-sm">
+                    <div class="login-header">
+                        <h3 class="login-title">Đăng Nhập</h3>
+                        <p class="login-subtitle">Dành cho Sinh viên & Giảng viên</p>
+                    </div>
+
+                    <form class="login-form">
+                        <div class="input-group">
+                            <span class="input-icon"><i class="fas fa-id-card"></i></span>
+                            <input type="text" class="login-input" placeholder="Mã SV / Mã Thẻ" required>
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-icon"><i class="fas fa-lock"></i></span>
+                            <input type="password" class="login-input" placeholder="Mật khẩu" required>
+                        </div>
+
+                        <div class="login-options">
+                            <label class="remember-me">
+                                <input type="checkbox"> Lưu
+                            </label>
+                            <a href="#" class="forgot-pass">Quên mật khẩu?</a>
+                        </div>
+
+                        <button type="submit" class="btn-login">Đăng nhập</button>
+                    </form>
+                    <div class="login-footer-accent"></div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="book-zigzag-container">
+
+            <div class="zigzag-item">
+                <div class="zigzag-img-wrapper">
+                    <img src="image/ngk.jpg" alt="Book 1" class="zigzag-img shadow">
+                </div>
+                <div class="zigzag-content">
+                    <span class="book-tag">Best Seller</span>
+                    <h2 class="book-title">Nhà Giả Kim</h2>
+                    <h4 class="book-author">Paulo Coelho</h4>
+                    <p class="book-desc">
+                        "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó."
+                        Cuốn sách bán chạy thứ hai mọi thời đại.
+                    </p>
+                    <div class="book-actions">
+                        <button class="btn-read">Đọc thử</button>
+                        <button class="btn-details">Chi tiết</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="zigzag-item">
+                <div class="zigzag-img-wrapper">
+                    <img src="image/td.jpg" alt="Book 2" class="zigzag-img shadow">
+                </div>
+                <div class="zigzag-content">
+                    <span class="book-tag">Mới Nhất</span>
+                    <h2 class="book-title">Tư Duy Nhanh & Chậm</h2>
+                    <h4 class="book-author">Daniel Kahneman</h4>
+                    <p class="book-desc">
+                        Khám phá hai hệ thống tư duy điều khiển cách chúng ta suy nghĩ và đưa ra quyết định.
+                    </p>
+                    <div class="book-actions">
+                        <button class="btn-read">Đọc thử</button>
+                        <button class="btn-details">Chi tiết</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="zigzag-item">
+                <div class="zigzag-img-wrapper">
+                    <img src="image/dnt.jpg" alt="Book 3" class="zigzag-img shadow">
+                </div>
+                <div class="zigzag-content">
+                    <span class="book-tag">Kinh Điển</span>
+                    <h2 class="book-title">Đắc Nhân Tâm</h2>
+                    <h4 class="book-author">Dale Carnegie</h4>
+                    <p class="book-desc">
+                        Nghệ thuật thu phục lòng người, làm cho mọi người yêu mến mình.
+                    </p>
+                    <div class="book-actions">
+                        <button class="btn-read">Đọc thử</button>
+                        <button class="btn-details">Chi tiết</button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="shadow p-4 p-md-5 rounded-3 text-light mx-auto mt-5"
+        style="background-color: #284F9E; text-align: left; width: 95%; max-width: 1400px; margin-bottom: 20px;">
+        <div class="container">
+            <div class="row justify-content-between g-4">
+                <div class="col-md-5 text-start">
+                    <div class="site-footer__section">
+                        <h4 class="mb-3">Thông tin liên hệ</h4>
+                        <p style="opacity: 0.9;">
+                            <strong>Thư viện Trung tâm, Đại học Lạc Hồng</strong><br>
+                            Số 10 Huỳnh Văn Nghệ, P. Bửu Long, TP. Biên Hòa, Đồng Nai<br>
+                            Email: library@lhu.edu.vn<br>
+                            Điện thoại: (0251) 395 2723
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5 text-start text-md-end">
+                    <div class="site-footer__section">
+                        <h4 class="mb-3">Giờ mở cửa</h4>
+                        <p style="opacity: 0.9;">
+                            Thứ 2 - Thứ 6: 07:30 - 21:00<br>
+                            Thứ 7 - Chủ nhật: 08:00 - 17:00<br>
+                            <span class="text-warning">Ngày lễ: Đóng cửa</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" style="opacity: 0.3;">
+            <div class="text-center">
+                <p class="mb-0 small">&copy; 2025 Bản quyền thuộc về Thư viện Đại học Lạc Hồng.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
